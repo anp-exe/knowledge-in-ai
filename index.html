@@ -160,7 +160,7 @@
     <div class="wrap">
         <div class="num">02 — THE CLASSIC RECIPE</div>
         <h2>Justified True Belief, and the Gettier problem in production</h2>
-        <p class="reveal">Nagel's classical analysis: you <em>know</em> something if you <strong>believe</strong> it, it is <strong>true</strong>, and you have <strong>justification</strong>. Flip the three switches.</p>
+        <p class="reveal">The classical analysis: you <em>know</em> something if you <strong>believe</strong> it, it is <strong>true</strong>, and you have <strong>justification</strong>. Flip the three switches.</p>
 
         <div class="jtb reveal">
             <div class="jtb-toggles">
@@ -172,7 +172,7 @@
             <div class="jtb-note" id="jtbNote"></div>
         </div>
 
-        <p class="reveal"><strong>The Gettier twist:</strong> you can have all three and still not have knowledge if the justification reached the truth by luck. A RAG system can retrieve a doc, generate a true answer, and cite a source, yet be right by accident because the chunk did not actually support the claim. RAG faithfulness evaluation is how I rule that out.</p>
+        <p class="reveal"><strong>The Gettier twist:</strong> you can have all three and still not have knowledge if the justification reached the truth by luck. A RAG system can retrieve a doc, generate a true answer, and cite a source, yet be right by accident because the chunk did not actually support the claim. RAG faithfulness evaluation is how you rule that out.</p>
     </div>
 </section>
 
@@ -191,13 +191,13 @@
             </tbody>
         </table>
 
-        <p class="reveal">To make a model <strong>decipher fact from knowledge from opinion in unlabelled data</strong>, I need an explicit theory of what separates them. That theory is epistemology. Without it I am hoping the model absorbs judgement by osmosis, which is how bias gets baked in. So I build the filter instead:</p>
+        <p class="reveal">To make a model <strong>decipher fact from knowledge from opinion in unlabelled data</strong>, you need an explicit theory of what separates them. That theory is epistemology. Without it you are hoping the model absorbs judgement by osmosis, which is how bias gets baked in. So you build the filter instead:</p>
 
         <div class="flow reveal">
             <div class="flow-row">
                 <div class="node src"><div class="nh">Unlabelled web</div>fact + knowledge + opinion, indistinguishable</div>
                 <div class="arrow">→</div>
-                <div class="node filter"><div class="nh">Epistemic filter</div>the judgement I encode</div>
+                <div class="node filter"><div class="nh">Epistemic filter</div>the judgement you encode</div>
                 <div class="arrow">→</div>
                 <div class="flow-col">
                     <div class="node trust">truth-tracking → high-trust weighting</div>
@@ -214,7 +214,7 @@
         <div class="num">04 — TESTIMONY</div>
         <h2>Every retrieved chunk is testimony</h2>
         <p class="reveal">Nagel devotes real space to <strong>testimony</strong>, how we know things because someone told us, and <strong>reductionism</strong>: do you trust testimony by default or demand independent backing? That is the RAG problem. A vector database is a testimony engine.</p>
-        <p class="reveal">Reductionism says do not trust a source just because it spoke. That is source-quality scoring, reranking, and grounding only in verified databases. <strong>I was already building reductionist testimony filters. I just didn't have the word for it.</strong></p>
+        <p class="reveal">Reductionism says do not trust a source just because it spoke. That is source-quality scoring, reranking, and grounding only in verified databases. <strong></strong></p>
     </div>
 </section>
 
